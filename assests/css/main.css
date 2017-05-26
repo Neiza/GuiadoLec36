@@ -1,4 +1,38 @@
 #map {
  height: 90vh;
- width: 100%;
+ width: 90%;
+}
+
+.bg-orange{
+  background-color: #f7b617;
+  color: white;
+  height: 50px;
+}
+
+input[type="text"] {
+  background-color: #f7b617;
+  color: white;
+  border: 1px solid white;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+
+button{
+  color: black;
+}
+
+.form-inline, .btn {
+  padding-top: 8px;
+}
+
+#tarifa{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  color: white;
 }
